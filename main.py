@@ -41,8 +41,8 @@ with st.echo():
 
 
     df = pd.DataFrame({
-            "first column": [1,2,3,4,5],
-            "second column": [10,20,60,90,200]
+            "first column": [1,2,3,4,5,6],
+            "second column": [10,20,60,90,200,100]
     })
 
     st.dataframe(df)
